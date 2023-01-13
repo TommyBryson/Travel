@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="explore.css">
+    <title>Travel | Company</title>
+</head>
+
+<body>
+    <img src="logo (1).png" alt="" class="logo">
+    <nav>
+        <ul>
+            <li><a class="active">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#partner">Partner</a></li>
+        </ul>
+        <button class="btn btn-outline-warning login">Login</button>
+        <button class="btn btn-outline-dark register">Register</button>
+
+
+    </nav>
+
+    <div class="slide-1">
+        <h1 class="sl1-h1">Explore and<br>Travel</h1>
+        <p class="sl1-p">Holiday finder</p>
+        <p class="line"></p>
+        <img src="rec.png" alt="" class="i1">
+        <img src="rec.png" alt="" class="i2">
+        <img src="rec.png" alt="" class="i3">
+        <img src="rec.png" alt="" class="i4">
+
+        <select class="sel1">
+            <option value="location">Location</option>
+            <option value="russia">Russia</option>
+            <option value="usa" onclick="sel1 = 'usa'">USA</option>
+            <option value="japan" onclick="sel1 = 'japan'">Japan</option>
+        </select>
+        <select class="sel2">
+            <option value="activity">Activity</option>
+            <option value="morning">Morning</option>
+            <option value="day">Day</option>
+            <option value="night">Night</option>
+        </select>
+        <select class="sel3">
+            <option value="grade">Grade</option>
+            <option value="5">★★★★★</option>
+            <option value="4">★★★★☆</option>
+            <option value="3">★★★☆☆</option>
+            <option value="2">★★☆☆☆</option>
+            <option value="1">★☆☆☆☆</option>
+        </select>
+        <select class="sel4">
+            <option value="date">Date</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+        </select>
+        <img src="element.png" alt="" class="elem">
+        <img src="element.png" alt="" class="elem2">
+        <button class="btn explore" onclick="exp()">Explore</button>
+        <img src="thousand-01 1.png" alt="image" class="img1">
+    </div>
+
+    <div class="slide2">
+        <img src="element.png" alt="" class="elem3">
+        <img src="Thousand-02 1.png" alt="" class="img2">
+        <h1 class="sl2-h1">A new way to explore the<br> world</h1>
+        <p class="sl2-p">For decades travellers have reached for Lonely Planet<br> books when looking to plan and
+            execute their perfect<br>
+            trip, but now, they can also let Lonely Planet Experiences<br> lead the way</p>
+        <button class="btn learnmore">Learn more</button>
+    </div>
+
+    <div class="slide3">
+        <a name="destinations">
+            <h1 class="sl3-h1">Featured destinations</h1>
+        </a>
+        <img src="Raja ampat.png" alt="" class="featured1">
+        <img src="Fanjingshan.png" alt="" class="featured2">
+        <img src="Vevey.png" alt="" class="featured3">
+        <img src="Skadar.png" alt="" class="featured4">
+    </div>
+
+    <div class="slide4">
+        <img src="element.png" alt="" class="elem4">
+        <a name="about">
+            <h1 class="sl4-h1">Guides by Thousand
+        </a><br>
+        Sunny</h1>
+        <p class="sl4-p">Packed with tips and advice from our on-the-ground<br> experts, our city guides app (iOS and
+            Android) is the<br> ultimate resource before and during a trip.</p>
+        <button class="btn download">Download</button>
+        <img src="Thousand-03.png" alt="" class="img3">
+    </div>
+
+    <div class="slide5">
+        <img src="element.png" alt="" class="elem5">
+        <h1 class="sl5-h1">Testimonials</h1>
+        <img src="Vector.png" alt="stars" class="star1">
+        <img src="Vector.png" alt="stars" class="star2">
+        <img src="Vector.png" alt="stars" class="star3">
+        <img src="Vector.png" alt="stars" class="star4">
+        <img src="Vector.png" alt="stars" class="star5">
+        <p class="sl5-p">“Quisque in lacus a urna fermentum<br> euismod. Integer mi nibh, dapibus ac<br> scelerisque eu,
+            facilisis quis purus. Morbi<br> blandit sit amet turpis nec”</p>
+        <p class="sl5-p2">Edward Newgate</p>
+        <p class="sl5-p3">Founder Circle</p>
+
+
+
+        <div class="slider">
+            <section id="slider_bl">
+                <div class="wrapper">
+                    <input checked="" type="radio" name="slider" id="slide1">
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <div class="slider-wrapper">
+                        <div class="inner">
+                            <article>
+                                <img src="moun3.jpg" height="100%">
+                            </article>
+                            <article>
+                                <img src="mountains.jpg" height="100%">
+                            </article>
+                            <article>
+                                <img src="moun4.jpg" height="100%">
+                            </article>
+                        </div>
+                    </div>
+                    <div class="slider-prev-next-control">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <div class="slide6">
+        <img src="element.png" alt="" class="elem6">
+        <h1 class="sl6-h1">Trending stories</h1>
+
+
+        <div class="block-1 bl1">
+            <img src="image 12.png" alt="" class="bl-img1">
+            <p class="sl6-p">The many benefits of<br>
+                taking a healing holiday</p>
+            <p class="sl6-p2">‘Helaing holidays’ are on the rise<br>
+                tohelp maximise your health and<br> happines...</p>
+            <a class="sl6-a">Read more</a>
+        </div>
+
+
+        <div class="block-1 bl2">
+            <img src="image 13.png" alt="" class="bl-img1">
+            <p class="sl6-p">TThe best Kyoto restaurant<br>
+                to try Japanese food</p>
+            <p class="sl6-p2">From tofu to teahouses, here’s our<br> guide to Kyoto’s best restaurants<br>
+                to visit...</p>
+            <a class="sl6-a" href="#!">Read more</a>
+        </div>
+
+
+        <div class="block-1 bl3">
+            <img src="image 14.png" alt="" class="bl-img1">
+            <p class="sl6-p">Skip Chichen Itza and head<br>
+                to this remote Yucatan</p>
+            <p class="sl6-p2">It’s remote and challenging to get,<br>
+                but braving the jungle and exploring<br>
+                these ruins without the...</p>
+            <a href="#!" class="sl6-a">Read more</a>
+        </div>
+
+        <div class="block-1 bl4">
+            <img src="image 15.png" alt="" class="bl-img1">
+            <p class="sl6-p">Surf’s up at these beginner<br>
+                spots around the world</p>
+            <p class="sl6-p2">If learning to surf has in on your to-<br>
+                do list for a while, the good news<br>
+                is: it’s never too late...</p>
+            <a href="#!" class="sl6-a">Read more</a>
+        </div>
+    </div>
+
+    <footer>
+        <img src="logo (1).png" alt="" class="logo logo2">
+        <a name="partner">
+            <p class="footer-p">Plan and book your perfect trip with <br>
+                expert advice, travel tips destination<br>
+                information from us</p>
+        </a>
+        <p class="footer-p2">©2020 Thousand Sunny. All rights reserved</p>
+        <p class="footer-h1">Destinations</p>
+        <p class="footer-h2">Shop</p>
+        <p class="footer-h3">Interests</p>
+        <p class="footer-p3">Africa</p>
+        <p class="footer-p4">Antarctica</p>
+        <p class="footer-p5">Asia</p>
+        <p class="footer-p6">Europe</p>
+        <p class="footer-p7">America</p>
+
+        <p class="footer-p8">Destination Guides</p>
+        <p class="footer-p9">Pictorial & Gifts</p>
+        <p class="footer-p10">Special Offers</p>
+        <p class="footer-p11">Delivery Times</p>
+        <p class="footer-p12">FAQs</p>
+
+
+        <p class="footer-p13">Adventure Travel</p>
+        <p class="footer-p14">Art And Culture</p>
+        <p class="footer-p15">Wildlife And Nature</p>
+        <p class="footer-p16">Family Holidays</p>
+        <p class="footer-p17">Food And Drink</p>
+
+        <img src="Rectangle 57.png" alt="" class="rectangle">
+        <img src="social media.png" alt="" class="social">
+        </div>
+    </footer>
+    <script src="explore.js"></script>
+</body>
+</html>
