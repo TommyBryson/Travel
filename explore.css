@@ -159,6 +159,91 @@ select:after{
     color: #FB8F1D;
 }
 
+.explore-click {
+    background: #f1f1f1;
+    border:  3px solid black;
+    border-radius: 18px;
+    color: red;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 600px;
+    height: 300px;
+}
+
+
+
+#form {
+    transition: 1s;
+    display: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+  }
+  
+  #form.open {
+    transition: 1s;
+    display: block;
+  }
+  
+  .popup {
+    transition: 1s;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(17, 17, 17, 0.5);
+    transition: all 0.5s ease;
+    display: none;
+  }
+  
+  .popup_open {
+    transition: 1s;
+    display: block;
+  }
+  
+  .popup__container {
+    transition: 1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    max-width: 588px;
+    width: 100%;
+  }
+  
+  .popup__wrapper {
+    transition: 1s;
+    padding: 40px;
+  }
+  .popup-img {
+    transition: 1s;
+    width: 27%;
+    position: absolute;
+    left: 400px;
+    top: 17px;
+  }
+  .popup-bg {
+    transition: 1s;
+    display: none;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
 .elem {
     position: absolute;
     top: 200px;
@@ -645,6 +730,7 @@ footer {
         margin-top: 160px;
         margin-left: -50px;
     }
+
     .elem {
         display: none;
     }
